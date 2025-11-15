@@ -1,5 +1,11 @@
 package com.tnsif.inheritance;
 
-public class Myinterface {
-
+public interface Myinterface { 
+	void caluculatearea();
+	
+	// nested interface
+	interface Myinnerinterface{
+		int id=20;
+		void print();
+	}
 }
